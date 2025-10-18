@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span>🎲</span> Random Name Generator</h1>
+            <p>Discover a new name with every refresh!</p>
+        </header>
+        
+        <main>
+            <div class="name-card">
+                <div class="name-display" id="randomName">
+                    <span class="loading-text">Loading...</span>
+                </div>
+                <div class="name-label">Your Random Name</div>
+            </div>
+            
+            <div class="controls">
+                <button id="generateBtn" class="btn generate-btn">
+                    🔄 Generate New Name
+                </button>
+                <button id="refreshBtn" class="btn refresh-btn">
+                    🌐 Refresh Page
+                </button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Built with Node.js & Express</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
